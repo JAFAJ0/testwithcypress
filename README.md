@@ -5,9 +5,9 @@ Here, I use cypress to make this simple small test project.
 
 # How to get it:
 
-1.init a empty project with npm init
-2.install cypress
-3.edit files to match testing goals.
+1.init a empty project with npm init\
+2.install cypress\
+3.edit files to match testing goals.\
 4. run ```
 npx cypress run ```with [npm@5.2.0](mailto:npm@5.2.0) or greater
 
