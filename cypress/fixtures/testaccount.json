@@ -1,0 +1,38 @@
+{
+  "account1": {
+    "id": 0,
+    "fname": "Account",
+    "lname": "One",
+    "email": "noktb@qjrey.com",
+    "password": "9x3e6cwqnjlwzkp",
+    "city": "Hamden",
+    "state": "Connecticut",
+    "address": "8374 Sage Ave",
+    "pcode": "06514",
+    "Mobile": "5625771769"
+  },
+  "account2": {
+    "id": 1,
+    "fname": "Account",
+    "lname": "Two",
+    "email": "sqczzms@rj.com",
+    "password": "5nv8knfzzii2kbw5",
+    "city": "Kenner",
+    "state": "Louisiana",
+    "address": "945 Paul Wayne Haggerty Road",
+    "pcode": "70062",
+    "Mobile": "5044621833"
+  },
+  "account3": {
+    "id": 2,
+    "fname": "Account",
+    "lname": "Three",
+    "email": "yevgu@zu.com",
+    "password": "zhx9ncq6hkst9uq",
+    "city": "Ninety Six",
+    "state": "South Carolina",
+    "address": "2000 Traction Street",
+    "pcode": "29666",
+    "Mobile": "8435048993"
+  }
+}
