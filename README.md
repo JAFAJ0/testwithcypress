@@ -1,6 +1,7 @@
 # testwithcypress!
 
 Here, I use cypress to make this simple small test project.
+Besides, the bugreport.pdf is to test https://qainterview.pythonanywhere.com/
 
 
 # How to get it:
