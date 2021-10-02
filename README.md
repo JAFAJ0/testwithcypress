@@ -12,7 +12,7 @@ Here, I use cypress to make this simple small test project.
 npx cypress run ```with [npm@5.2.0](mailto:npm@5.2.0) or greater
 
 
-# Integration explainations
+# Integration files explainations
 
 My cypress.io files are in ./cypress/integration
 
