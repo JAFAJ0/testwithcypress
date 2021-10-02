@@ -1,4 +1,4 @@
-# testwithcypress!
+# test with cypress!
 
 Here, I use cypress to make this simple small test project.http://automationpractice.com/index.php?controller=order
 \
