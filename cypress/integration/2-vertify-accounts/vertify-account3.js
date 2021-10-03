@@ -45,11 +45,11 @@ describe('create accounts', () => {
         cy.get('#summary_products_quantity')
             .should('have.text', '2 Products')
         //check add an item
-        cy.get('#cart_quantity_up_1_1_0_577211 > span').click()
+        cy.get('.cart_quantity_up > span').click({ multiple: true })
         cy.get('#summary_products_quantity')
-            .should('have.text', '3 Products')
+            .should('have.text', '4 Products')
         //check remove an item
-        cy.get('#cart_quantity_down_1_1_0_577211 > span').click()
+        cy.get('.cart_quantity_down > span').click({ multiple: true })
         cy.get('#summary_products_quantity')
             .should('have.text', '2 Products')
 

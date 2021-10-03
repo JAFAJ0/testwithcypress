@@ -41,7 +41,7 @@ describe('create accounts', () => {
         cy.get('#summary_products_quantity')
             .should('have.text', '1 Product')
         //check edit numbers to buy here
-        cy.get('#product_1_1_0_577214 > td.cart_quantity.text-center > input.cart_quantity_input.form-control.grey')
+        cy.get('.cart_item  > td.cart_quantity.text-center > input.cart_quantity_input.form-control.grey')
             .clear()
             .type('99').should('have.value', 99)
         cy.get('#summary_products_quantity')
