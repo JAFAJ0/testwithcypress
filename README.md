@@ -9,14 +9,17 @@ Besides, the bugreport.pdf is to test https://qainterview.pythonanywhere.com/
 
 1.init a empty project with npm init\
 2.install cypress\
-3.edit files to match testing goals.\
-4. run ```
+3.install cypress-cucumber
+4.edit files to match testing goals.\
+5. run ```
 npx cypress run ```with [npm@5.2.0](mailto:npm@5.2.0) or greater
 
 
 # Integration files explainations
 
-My cypress.io files are in ./cypress/integration
+My cypress.io files are in ./cypress/integration The default dataset are already registered with the testing website.\
+Folders name with 0-.. 1-.. 2-.. are old pure cypress files. They are still runable.\
+But they will be ignored with cucumber\
 
 ## Generate dataset
 
@@ -31,6 +34,7 @@ NOTE: If you run this test case to generate dataset, you should also register th
 ## create accounts
 
 These three test cases are used to register the dataset through the website.
+some of hard coded datas are included in feature file
 
 ## vertify accounts
 
