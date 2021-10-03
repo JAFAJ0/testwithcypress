@@ -1,18 +1,20 @@
-# testwithcypress!
+# test with cypress!
 
-Here, I use cypress to make this simple small test project.
+Here, I use cypress to make this simple small test project.http://automationpractice.com/index.php?controller=order
+\
+Besides, the bugreport.pdf is to test https://qainterview.pythonanywhere.com/
 
 
 # How to get it:
 
-1.init a empty project with npm init
-2.install cypress
-3.edit files to match testing goals.
+1.init a empty project with npm init\
+2.install cypress\
+3.edit files to match testing goals.\
 4. run ```
 npx cypress run ```with [npm@5.2.0](mailto:npm@5.2.0) or greater
 
 
-# Integration explainations
+# Integration files explainations
 
 My cypress.io files are in ./cypress/integration
 
