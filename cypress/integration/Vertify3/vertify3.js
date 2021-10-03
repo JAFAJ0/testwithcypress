@@ -34,12 +34,12 @@ And('User move to checkout with extended page button and find there are {string}
         .should('have.text', nproducts)
 })
 
-And('User toggle the + - sign to check item numbers', (nproducts, n1products) => {
-    cy.get('.cart_quantity_up > span').click({ multiple: true })
+And('User toggle the + - sign to check item numbers {string} {string}', (nproducts, n1products) => {
+    cy.get('.first_item > .cart_quantity > .cart_quantity_button > .cart_quantity_up > span').click()
     cy.get('#summary_products_quantity')
         .should('have.text', n1products)
     //check remove an item
-    cy.get('.cart_quantity_down > span').click({ multiple: true })
+    cy.get('.first_item > .cart_quantity > .cart_quantity_button > .cart_quantity_down > span').click()
     cy.get('#summary_products_quantity')
         .should('have.text', nproducts)
 })
