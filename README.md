@@ -9,7 +9,7 @@ Besides, the bugreport.pdf is to test https://qainterview.pythonanywhere.com/
 
 1.init a empty project with npm init\
 2.install cypress\
-3.install cypress-cucumber
+3.install cypress-cucumber\
 4.edit files to match testing goals.\
 5. run ```
 npx cypress run ```with [npm@5.2.0](mailto:npm@5.2.0) or greater
