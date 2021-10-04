@@ -19,7 +19,7 @@ npx cypress run ```with [npm@5.2.0](mailto:npm@5.2.0) or greater
 
 My cypress.io files are in ./cypress/integration The default dataset are already registered with the testing website.\
 Folders name with 0-.. 1-.. 2-.. are old pure cypress files. They are still runable.\
-But they will be ignored with cucumber\
+But they will be ignored with cucumber
 
 ## Generate dataset
 
