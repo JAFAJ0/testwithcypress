@@ -2,7 +2,7 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 
 Given('User is at the main page', function () {
     cy.visit('http://automationpractice.com/index.php')
-    cy.fixture('testaccount1').then((account) => {
+    cy.fixture('testaccount').then((account) => {
         // "this" is still the test context object
         this.account3 = account.account3
     })
